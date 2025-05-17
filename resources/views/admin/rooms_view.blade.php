@@ -65,14 +65,13 @@
             {{ $rooms->links() }}
         </div>
     </div>
+
+    <a href="{{ route('add_rooms') }}">
+        <button type="button" class="btn btn-outline-primary position-fixed bottom-0 start-50 translate-middle-x m-3">
+            <i class="fa fa-plus"></i> Add New Room
+        </button>
+    </a>
 </div>
-
-<a href="{{ route('add_rooms') }}">
-    <button type="button" class="btn btn-outline-primary position-fixed bottom-0 start-50 translate-middle-x m-3">
-        <i class="fa fa-plus"></i> Add New Room
-    </button>
-</a>
-
 <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
 </a>
